@@ -16,14 +16,14 @@ html {
 }
 
 #main-inicio {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(fondo1.JPG.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(fondo1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 #main-formulario {
   height: 1100px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(fondo2.JPG.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(fondo2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -168,7 +168,7 @@ form {
 }
 
 #main-preg {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(fondo3.JPG.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(fondo3.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -330,6 +330,17 @@ input[type="submit"]:hover {
 
 @media only screen and (max-width: 768px) {
 
+.square h4 {
+  font-size: 20px;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-weight: bolder;
+  padding: 20px;
+}
+
+h1 span {
+  font-size: 50px;
+}
+
 #texto-animado {
   font-size: 50px;
   text-align: center;
@@ -421,8 +432,9 @@ h2 {
  display: flex;
  justify-content: center;
  color:white;
- font-size: 30px;
- padding: 10px;
+ font-size: 25px;
+text-align: center;
+ align-items: center;
 }
 
 }
